@@ -67,3 +67,5 @@ tsc -w
 
 - NaN en JavaScript es considerado un numero.
 - El uso de las numeraciones ayudan a trabajar con valores que tengan un sentido semántico o visualmente facil de leer
+- Void es un tipo de dato que indica que una función no retorna nada.
+- En TypeScript, si una función no retorna un valor explícito, su tipo de retorno es void.
