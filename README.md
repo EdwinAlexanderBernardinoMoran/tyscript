@@ -66,3 +66,4 @@ tsc -w
 ```
 
 - NaN en JavaScript es considerado un numero.
+- El uso de las numeraciones ayudan a trabajar con valores que tengan un sentido semántico o visualmente facil de leer
