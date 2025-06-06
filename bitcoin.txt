@@ -1,0 +1,36 @@
+- Minero: Un minero de Bitcoin es una persona (o, más comúnmente, una computadora especializada) que participa en el proceso de validar y registrar transacciones dentro de la red de Bitcoin. Este proceso se llama minería.
+
+- La mineria es la forma en la que se crean nuevos Bitcoins
+
+La red Bitcoin es un sistema global de computadoras conectadas entre sí que: Verifican, Registran y Protegen todas las transacciones que se hacen con bitcoins.
+
+- Componentes de la red Bitcoin:
+    Usuario : Usan billeteras digitales para enviar y recibir bitcoins.
+    Mineros: Validan transacciones y agregan nuevos bloques a la blockchain.
+    Nodos: Computadoras que guardan una copia del blockchain y ayudan a verificar datos
+    Blockchain: Registro público de todas las transacciones de Bitcoin.
+
+- Cuando decimos que la red Bitcoin verifica y registra transacciones, nos referimos al conjunto de todos los participantes, donde:
+
+    Los mineros son los que "escriben en el libro oficial",
+    Los nodos son los que revisan cada palabra escrita y confirman que todo esté correcto.
+
+La cadena de bloques, o blockchain en inglés, es como un libro digital gigante donde se anotan todas las transacciones que se hacen con Bitcoin (u otras criptomonedas), de forma pública, segura y en orden.
+
+Cada bloque tiene:
+
+    📦 Un resumen matemático del bloque anterior (llamado hash).
+    🧾 Una lista de transacciones.
+    ⏱️ Una marca de tiempo.
+    📛 Y su propio hash (como su "huella digital").
+
+Eso significa que si alguien quisiera cambiar una transacción vieja, tendría que modificar todos los bloques siguientes, lo cual es casi imposible.
+
+- En la red Bitcoin, se crea (o “cierra”) un bloque aproximadamente cada 10 minutos.
+- El tamaño máximo de un bloque de Bitcoin es de 1 megabyte (MB).
+- En promedio, eso permite incluir entre 2,000 y 3,000 transacciones por bloque, aunque puede variar por varios factores técnicos como:
+    El tamaño de cada transacción (pueden ser pequeñas o grandes).
+    Si se usa algo llamado SegWit, que optimiza el espacio.
+- Las transacciones que no cupieron en ese bloque esperan en la “mempool” (una especie de sala de espera).
+
+- La red Bitcoin evalúa el tiempo que tomó minar los últimos 2,016 bloques y lo compara con el tiempo esperado (2,016 bloques × 10 minutos = 20,160 minutos). Si los bloques se minaron más rápido, la dificultad aumenta proporcionalmente; si se minaron más lento, la dificultad disminuye
