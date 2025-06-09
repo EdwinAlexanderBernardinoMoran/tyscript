@@ -69,3 +69,9 @@ tsc -w
 - El uso de las numeraciones ayudan a trabajar con valores que tengan un sentido semántico o visualmente facil de leer
 - Void es un tipo de dato que indica que una función no retorna nada.
 - En TypeScript, si una función no retorna un valor explícito, su tipo de retorno es void.
+- En los enums por ejemplo: Si "c" se iguala a 9, el siguiente valor es 10, no importa que se repita el valor de la enumeración.
+
+## Seccion 4: Funciones y objetos.
+
+- Esta sección esta enfocada en aprender como trabajan las funciones en TypeScript y también nos enfocaremos en aplicar buenas prácticas a la hora de crearlas.
+- REST ARGUMENTS: resto de argumentos que le puedes pasar a una funcion
