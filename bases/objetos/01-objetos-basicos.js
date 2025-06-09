@@ -9,8 +9,8 @@
         name: 'Clark Kent',
         age: 30,
         powers: ['Super Strength', 'Flight'],
-        getName() {
-            return this.name;
-        }
+        // getName() {
+        //     return this.name;
+        // }
     };
 })();
