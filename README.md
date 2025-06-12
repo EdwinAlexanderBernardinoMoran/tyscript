@@ -116,6 +116,32 @@ let batman: Hero = {
 }
 ```
 
+- Arreglo de objetos personalizados
+
+```js
+// Ejemplo
+type Villano = {
+  nombre: string;
+  edad?: number; // La edad es opcional
+  mutante: boolean;
+}
+
+// Villanos debe de ser un arreglo de objetos personalizados
+const villanos: Villano[] = [{
+  nombre:"Lex Luthor",
+  edad: 54,
+  mutante:false
+},{
+  nombre: "Erik Magnus Lehnsherr",
+  edad: 49,
+  mutante: true
+},{
+  nombre: "James Logan",
+  edad: undefined,
+  mutante: true
+}];
+```
+
 - Multiples tipos permitidos se refiere a que una variable se le puede asignar que acepte mas de un tipo de datos
 
 ```js
