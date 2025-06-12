@@ -75,3 +75,43 @@ tsc -w
 
 - Esta sección esta enfocada en aprender como trabajan las funciones en TypeScript y también nos enfocaremos en aplicar buenas prácticas a la hora de crearlas.
 - REST ARGUMENTS: resto de argumentos que le puedes pasar a una funcion
+
+## Seccion 5: Objetos y tipos personalizados en TypeScript
+
+- El problemas con la definicion en linea es que por cada objeto que yo cree tengo que definir la firma por cada uno de ellos (definir sus propiedad y el tipo de cada una de ellas)
+
+```js
+// Ejemplo de la definicion en linea
+let batman: {name: string, age?:number, powers: string[], getName?: () => string} = {
+    name: 'Bruce Wayne',
+    age: 35,
+    powers: ['Intelligence', 'Martial Arts'],
+}
+
+let superman : {name: string, age?:number, powers: string[], getName?: () => string} = {
+    name: 'Clark Kent',
+    age: 30,
+    powers: ['Super Strength', 'Flight'],
+    getName() {
+        return this.name;
+    }
+}
+```
+
+- Tipos personalizados
+
+```js
+// Ejemplo
+type Hero = {
+    name: string;
+    age?: number;
+    powers: string[];
+    getName?: () => string;
+}
+
+let batman: Hero = {
+    name: 'Bruce Wayne',
+    age: 35,
+    powers: ['Intelligence', 'Martial Arts'],
+}
+```
