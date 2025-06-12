@@ -115,3 +115,9 @@ let batman: Hero = {
     powers: ['Intelligence', 'Martial Arts'],
 }
 ```
+
+- Multiples tipos permitidos se refiere a que una variable se le puede asignar que acepte mas de un tipo de datos
+
+```js
+let myCustomVariable: ( string | number | Hero ) = 'Edwin';
+```
