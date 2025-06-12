@@ -1,5 +1,6 @@
 "use strict";
 (() => {
+    var _a;
     let flash = {
         name: 'Barry Allen',
         age: 24,
@@ -9,8 +10,10 @@
         name: 'Clark Kent',
         age: 30,
         powers: ['Super Strength', 'Flight'],
-        // getName() {
-        //     return this.name;
-        // }
+        getName() {
+            return this.name;
+        }
     };
+    // Se usa el operador de encadenamiento opcional para evitar errores si getName no existe
+    console.log((_a = flash.getName) === null || _a === void 0 ? void 0 : _a.call(flash));
 })();
